@@ -12,13 +12,13 @@ __如果你正受到网络管制，或者无法访问上述链接，请提交<a 
 
 ## Styles / 样式
 - [Neo-Grotesque_zh_CN_Vector.css](Neo-Grotesque_zh_CN_Vector.css)  
-  This style is designed for skin “Vector” of Simplified Chinese Wikipedia. You may also use it in Traditional Chinese but not tested.
+  This style is designed for skin “Vector” of Simplified Chinese Wikipedia. You may also use it in Traditional Chinese but not tested.  
   用于简体中文版本的维基百科皮肤 “Vector”，你也可以用于繁体中文版但是这并未经过我的测试。  
   __Example / 示例__  
   ![Example_zh_CN.png](Example_zh_CN.png)
 - [Neo-Grotesque_JP_Vector.css](Neo-Grotesque_JP_Vector.css)  
-  This style is designed for skin “Vector” of Japanese Wikipedia.
-  用于日文版本的维基百科皮肤 “Vector”。
+  This style is designed for skin “Vector” of Japanese Wikipedia.  
+  用于日文版本的维基百科皮肤 “Vector”。  
   __Example / 示例__  
   ![Example_JP.png](Example_JP.png)
   
