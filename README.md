@@ -19,6 +19,7 @@ font-family: 'Linux Libertine', Georgia, Times, serif;
 
 ##CSS Settings / CSS 设置
 - [Neo Grotesque](Neo-Grotesque/)
+- [Classic](Classic/)
 
 ##Issues / 事件
 Please submit your <a href="https://github.com/starkshaw/wikipedia-stylesheets/issues" target="_blank">issues</a> if you have better idea or any other suggestions.  
