@@ -4,7 +4,7 @@
 /* Designed for Simplified Chinese for skin “Vector”. */
 
 body, h1, h2, h2 span {
-	font-family: 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft Yahei', 'Heiti SC', sans-serif !important;
+	font-family: 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'PingFang', 'Microsoft Yahei', 'Heiti SC', sans-serif !important;
 }
 
 /*
@@ -13,6 +13,7 @@ Helvetica – Pre-installed in OS X.
 Segoe UI – Pre-installed in Windows.
 Hiragino Sans GB – Pre-installed in OS X.
 Noto Sans CJK SC – Simplified Chinese version of Noto Sans CJK.
+PingFang – The new UI font family since OS X El Capitan and iOS 9.
 Microsoft Yahei – Pre-installed in Windows.
 Heiti SC – Default UI font of Simplified Chinese version of iOS.
 
