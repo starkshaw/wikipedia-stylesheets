@@ -21,3 +21,13 @@ sans-serif – The final fallback.
 
 You may add, revise or delete entries according to your taste.
 */
+
+pre {
+	font-family: 'Source Code Pro', 'Menlo', 'Monaco', monospace;
+}
+
+/* This part is for pre-formatted text, or code.
+Source Code Pro – A free monospace font by Adobe Inc.
+Menlo – Pre-installed in OS X.
+Monaco – Pre-installed in OS X.
+*/
