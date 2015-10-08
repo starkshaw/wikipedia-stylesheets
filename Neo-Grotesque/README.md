@@ -27,5 +27,5 @@ Source Code Pro 是一个由 Adobe Inc. 开发的开源的等宽无衬线字体�
   __Example / 示例__  
   ![Example_JP.png](Example_JP.png)
   
-  __All examples are captured in Safari 8.0.8 on OS X Yosemite 10.10.5.__  
-  __所有示例都截取自运行在 OS X Yosemite 10.10.5 的 Safari 8.0.8。__
+  __All examples are captured in Safari 9.0 on OS X El Capitan 10.11.__  
+  __所有示例都截取自运行在 OS X El Capitan 10.11 的 Safari 9.0。__
