@@ -10,6 +10,11 @@ __If you are experiencing network control, or you cannot visit the link above, p
 点击<a href="https://www.google.com/get/noto/help/cjk/" target="_blank">__这里__</a>获取思源黑体。你可以根据你的电脑的支持情况，选择下载单一语言包（简体中文、繁体中文、日文、朝鲜文），抑或是四合一 Super OTC 包或者四合一 OTC 包。请谨慎阅读 Google 列出的使用说明。  
 __如果你正受到网络管制，或者无法访问上述链接，请提交<a href="https://github.com/starkshaw/wikipedia-stylesheets/issues" target="_blank">事件</a>，我将会向本仓库上传你提到的字体包。__
 
+## Source Code Pro
+Source Code Pro is an open source monospaced sans serif font family designed by Adobe Inc. It is ideally used for display formatted code, such as programming code, etc. To get Source Code Pro, please go to their GitHub repository by click <a href="https://github.com/adobe-fonts/source-code-pro" target="_blank">__here__</a>.
+
+Source Code Pro 是一个由 Adobe Inc. 开发的开源的等宽无衬线字体。对于网页中的代码——例如编程代码——具有比较理想的显示效果。点击<a href="https://github.com/adobe-fonts/source-code-pro" target="_blank">__这里__</a>访问他们的 GitHub 软件仓库并获得 Source Code Pro。
+
 ## Styles / 样式
 - [Neo-Grotesque_zh_CN_Vector.css](Neo-Grotesque_zh_CN_Vector.css)  
   This style is designed for skin “Vector” of Simplified Chinese Wikipedia. You may also use it in Traditional Chinese but not tested.  
