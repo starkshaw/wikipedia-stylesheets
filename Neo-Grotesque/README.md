@@ -1,7 +1,32 @@
 # Neo-Grotesque
-Neo-Grotesque is a term of typeface, which described a modern design consists of a direct evolution of grotesque types. One of the most famous typeface is Helvetica – The one we could find on the logo of Jeep, 3M, Oral-B, The North Face, American Airlines (old logo), Microsoft (old logo), etc. This CSS style is based on Helvetica (or Helvetica Neue), which means if you have Helvetica or Helvetica Neue installed in your computer (Note that OS X is pre-installed Helvetica and Helvetica Neue), the browser will render the Wikipedia better. On pan-CJK side, it will use Hiragino families (Hiragino Kaku Gothic Pro for Japanese, Hiragino Sans GB for Simplified Chinese) first (also pre-installed in OS X), and then Noto Sans CJK – a free font family designed by Google Inc. and Adobe Systems Incorporated. After these settings, Windows-oriented setting follows. Microsoft Yahei is the UI font of Simplified Chinese version of Windows Vista and its successors, a.k.a Windows 7, Windows 8, Windows 8.1 and Windows 10 in customer market. The last two fallbacks are Heiti SC, the default font of Simplified Chinese version of iOS, and `sans-serif`, if you are not using operation systems mentioned above, your browser will determine by default. Note that these information I given above is the basic knowledge of typeface and operating system, which implies you may have Hiragino families in Windows or Linux. If you do it will always render Wikipedia with the order I mentioned above. I personally suggest you that install Noto Sans CJK to your Windows and Linux computer to obtain better user experience.
+Neo-Grotesque is a term of typeface, which described a modern design consists of a direct evolution of grotesque types. One of the most famous typeface is Helvetica – The one we could find on the logo of Jeep, 3M, Oral-B, The North Face, American Airlines (old logo), Microsoft (old logo), etc. This CSS style is based on Helvetica (or Helvetica Neue), which means if you have Helvetica or Helvetica Neue installed in your computer (Note that OS X is pre-installed Helvetica and Helvetica Neue), the browser will render the Wikipedia better. Note that I personally suggest you that install Noto Sans CJK to your computer to obtain better user experience.
 
-新歌德体是字体中的一种术语，用来描述现代化的歌德体设计；在新歌德体风格中，最有名的莫过是 Helvetica ——在很多商标中都能找到它的身影：吉普、3M、欧乐-B、The North Face、美国航空（旧商标）以及微软（旧商标）等。本 CSS 样式基于 Helvetica （或 Helvetica Neue）设计，这意味着如果你的电脑中已经安装了 Helvetica 或者 Helvetica Neue（OS X 已经预置），浏览器将会把维基百科渲染地更完美。在汉字部分，本样式优先使用冬青黑体家族（日语：ヒラギノ角ゴシック体 简体中文：冬青黑体简体中文，都在 OS X 中预置），然后为思源黑体——一个免费的汉字圈字体，由 Google Inc. 以及 Adobe Systems Incorporated 联合设计。随后是针对 Windows 的优化，微软雅黑是自 Windows Vista 之后的简体中文版 Windows 的 UI 字体。最后为针对简体中文 iOS 的优化，如果你的操作系统不在上述之列，即会渲染浏览器默认字体 `sans-serif`。但是请注意，上面我提到的均是关于字体以及操作系统的基本知识，这意味着你的 Windows 或 Linux 电脑一样可以安装冬青黑体家族；字体总是按照我提到的顺序依次被渲染。我个人建议在你的 Windows 和 Linux 电脑中安装免费的思源黑体以获得更佳的用户体验。
+新歌德体是字体中的一种术语，用来描述现代化的歌德体设计；在新歌德体风格中，最有名的莫过是 Helvetica ——在很多商标中都能找到它的身影：吉普、3M、欧乐-B、The North Face、美国航空（旧商标）以及微软（旧商标）等。本 CSS 样式基于 Helvetica （或 Helvetica Neue）设计，这意味着如果你的电脑中已经安装了 Helvetica 或者 Helvetica Neue（OS X 已经预置），浏览器将会把维基百科渲染地更完美。请注意，我个人建议在你的电脑中安装免费的思源黑体以获得更佳的用户体验。
+
+## Standard of Chinese for Different Regions / 不同地区汉字的标准
+This style supports Japanese, Simplified Chinese, Traditional Chinese (Hong Kong), Traditional Chinese (Taiwan).
+
+本样式支持日文、简体中文、繁体中文（香港）、繁体中文（台湾）。
+
+### Simplified Chinese / 简体中文
+Hiragino Sans GB is the first priority then followed by Noto Sans CJK SC and PingFang SC which introduced in iOS 9 and OS X El Capitan. Microsoft Yahei, the UI font introduced in Windows Vista for Simplified Chinese following, the last fallback is Heiti SC, the default UI font for Simplified Chinese on iOS 8 and previous versions, and OS X Yosemite and previous versions.
+
+冬青黑体简体中文作为首个设置，紧随其后的是思源黑体；在 iOS 9 以及 OS X El Capitan 中首次出现的苹方作为第三选择（iOS 可渲染），Windows 方面则是微软雅黑——自 Windows Vista 后的简体中文 UI 字体，最后是华文黑体—— iOS 8 以及之前版本、OS X Yosemite 以及之前版本的 UI 字体。
+
+### Traditional Chinese (Hong Kong) / 繁体中文（香港）
+In Traditional Chinese styles (Hong Kong and Taiwan), the first priority is Noto Sans TC, since Hiragino Sans GB may not follow the standard of Traditional Chinese. Hong Kong version uses PingFang HK as default UI font since iOS 9 and OS X El Capitan, then is Hiragino Sans GB. On Windows side, Microsoft Jhenghei is the first fallback for Traditional Chinese, which introduced since Windows Vista. The last fallback is Heiti TC, the default UI font for Traditional Chinese on iOS 8 and previous versions, and OS X Yosemite and previous versions.
+
+繁体中文（香港）方面首个设置为思源黑体（繁体）——因为冬青黑体简体中文可能不合繁体中文的相关规范。然后是苹方（香港）——自 iOS 9 以及 OS X El Capitan 后作为 UI 字体，然后才是冬青黑体简体中文。Windows 方面，微软正黑——自 Windows Vista 后作为繁体中文 Windows 的 UI 字体——为首个设置，最后是华文黑体—— iOS 8 以及之前版本、OS X Yosemite 以及之前版本的 UI 字体。
+
+### Traditional Chinese (Taiwan) / 繁体中文（台湾）
+The difference between Traditional Chinese (Hong Kong) and Traditional Chinese (Taiwan) is the difference between PingFang HK and PingFang TC, while Taiwan version uses PingFang TC.
+
+繁体中文（香港）与繁体中文（台湾）的区别为苹方（香港）与苹方（繁体中文）。台湾版本使用苹方（繁体中文）。
+
+### Japanese / 日文
+The first priorities are Hiragino Sans (Introduced since OS X El Capitan) and Hiragino Kaku Gothic. The Simplified Chinese glyphs will be rendered by the Hiragino Sans GB. Next fallback is Noto Sans CJK JP, a free font family designed by Google Inc. and Adobe Systems Incorporated, and it follows Japanese Standards. Then Meiryo is the default UI font family introduced since Windows Vista, etc. Please note that the Chinese fonts are always follow after Japanese fonts as Chinese fonts contain more glyphs in case Japanese fonts cannot display certain glyphs.
+
+针对日文首个设置为 Hiragino Sans （自 OS X El Capitan 后开始随系统附带） 以及 Hiragino Kaku Gothic. 简体中文字形将会渲染为冬青黑体简体中文。接下来为 Noto Sans CJK JP —— 一个免费的汉字圈字体，由 Google Inc. 以及 Adobe Systems Incorporated 联合设计；并且符合日文标准。然后是 Meiryo 体，自 Windows Vista 后为 Windows 的 UI 字体。请注意中文字体总是会跟随在日文字体后，原因是日文字体通常无法完全覆盖所有汉字，而中文字体在这时作为补充。
 
 ## Noto Sans CJK
 To get Noto Sans CJK by click <a href="https://www.google.com/get/noto/help/cjk/" target="_blank">__here__</a>. You could download single language package (Simplified Chinese, Traditional Chinese, Japanese, Korean), all-in-one CJK super OTC package, or all-in-one CJK OTC package if your computer supported. Read the instruction by Google carefully.  
@@ -17,10 +42,20 @@ Source Code Pro 是一个由 Adobe Inc. 开发的开源的等宽无衬线字体�
 
 ## Styles / 样式
 - [Neo-Grotesque_zh_CN_Vector.css](Neo-Grotesque_zh_CN_Vector.css)  
-  This style is designed for skin “Vector” of Simplified Chinese Wikipedia. You may also use it in Traditional Chinese but not tested.  
-  用于简体中文版本的维基百科皮肤 “Vector”，你也可以用于繁体中文版但是这并未经过我的测试。  
+  This style is designed for skin “Vector” of Simplified Chinese Wikipedia. Pan-CJK font shown in the figure is Hiragino Sans GB.
+  用于简体中文版本的维基百科皮肤 “Vector”，图中汉字圈字体为冬青黑体简体中文。    
   __Example / 示例__  
   ![Example_zh_CN.png](Example_zh_CN.png)
+- [Neo-Grotesque_zh_HK_Vector.css](Neo-Grotesque_zh_HK_Vector.css)  
+  This style is designed for skin “Vector” of Traditional Chinese (Hong Kong) Wikipedia. Pan-CJK font shown in the figure is PingFang HK.
+  用于繁体中文（香港）版本的维基百科皮肤 “Vector”，图中汉字圈字体为苹方（香港）。    
+  __Example / 示例__  
+  ![Example_zh_CN.png](Example_zh_HK.png)
+- [Neo-Grotesque_zh_TW_Vector.css](Neo-Grotesque_zh_TW_Vector.css)  
+  This style is designed for skin “Vector” of Traditional Chinese (Taiwan) Wikipedia. Pan-CJK font shown in the figure is PingFang TC.
+  用于繁体中文（台湾）版本的维基百科皮肤 “Vector”，图中汉字圈字体为苹方（繁体中文）。    
+  __Example / 示例__  
+  ![Example_zh_CN.png](Example_zh_TW.png)
 - [Neo-Grotesque_JP_Vector.css](Neo-Grotesque_JP_Vector.css)  
   This style is designed for skin “Vector” of Japanese Wikipedia.  
   用于日文版本的维基百科皮肤 “Vector”。  
