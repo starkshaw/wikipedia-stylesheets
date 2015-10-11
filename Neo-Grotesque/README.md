@@ -42,17 +42,17 @@ Source Code Pro 是一个由 Adobe Inc. 开发的开源的等宽无衬线字体�
 
 ## Styles / 样式
 - [Neo-Grotesque_zh_CN_Vector.css](Neo-Grotesque_zh_CN_Vector.css)  
-  This style is designed for skin “Vector” of Simplified Chinese Wikipedia. Pan-CJK font shown in the figure is Hiragino Sans GB.
+  This style is designed for skin “Vector” of Simplified Chinese Wikipedia. Pan-CJK font shown in the figure is Hiragino Sans GB.  
   用于简体中文版本的维基百科皮肤 “Vector”，图中汉字圈字体为冬青黑体简体中文。    
   __Example / 示例__  
   ![Example_zh_CN.png](Example_zh_CN.png)
 - [Neo-Grotesque_zh_HK_Vector.css](Neo-Grotesque_zh_HK_Vector.css)  
-  This style is designed for skin “Vector” of Traditional Chinese (Hong Kong) Wikipedia. Pan-CJK font shown in the figure is PingFang HK.
+  This style is designed for skin “Vector” of Traditional Chinese (Hong Kong) Wikipedia. Pan-CJK font shown in the figure is PingFang HK.  
   用于繁体中文（香港）版本的维基百科皮肤 “Vector”，图中汉字圈字体为苹方（香港）。    
   __Example / 示例__  
   ![Example_zh_CN.png](Example_zh_HK.png)
 - [Neo-Grotesque_zh_TW_Vector.css](Neo-Grotesque_zh_TW_Vector.css)  
-  This style is designed for skin “Vector” of Traditional Chinese (Taiwan) Wikipedia. Pan-CJK font shown in the figure is PingFang TC.
+  This style is designed for skin “Vector” of Traditional Chinese (Taiwan) Wikipedia. Pan-CJK font shown in the figure is PingFang TC.  
   用于繁体中文（台湾）版本的维基百科皮肤 “Vector”，图中汉字圈字体为苹方（繁体中文）。    
   __Example / 示例__  
   ![Example_zh_CN.png](Example_zh_TW.png)
