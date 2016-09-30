@@ -14,9 +14,9 @@ Hiragino Sans GB is the first priority then followed by Noto Sans CJK SC and Pin
 冬青黑体简体中文作为首个设置，紧随其后的是思源黑体；在 iOS 9 以及 OS X El Capitan 中首次出现的苹方作为第三选择（iOS 可渲染），Windows 方面则是微软雅黑——自 Windows Vista 后的简体中文 UI 字体，最后是华文黑体—— iOS 8 以及之前版本、OS X Yosemite 以及之前版本的 UI 字体。
 
 ### Traditional Chinese (Hong Kong) / 繁体中文（香港）
-In Traditional Chinese styles (Hong Kong and Taiwan), the first priority is Noto Sans TC, since Hiragino Sans GB may not follow the standard of Traditional Chinese. Hong Kong version uses PingFang HK as default UI font since iOS 9 and OS X El Capitan, then is Hiragino Sans GB. On Windows side, Microsoft Jhenghei is the first fallback for Traditional Chinese, which introduced since Windows Vista. The last fallback is Heiti TC, the default UI font for Traditional Chinese on iOS 8 and previous versions, and OS X Yosemite and previous versions.
+In Traditional Chinese styles (Hong Kong and Taiwan), the first priority is Hiragino Sans CHS, which is a Traditional Chinese font family pre-installed since macOS Sierra, similar to Hiragino Sans GB as a Simplified Chinese version. Then Noto Sans TC, since Hiragino Sans GB may not follow the standard of Traditional Chinese. Hong Kong version uses PingFang HK as default UI font since iOS 9 and OS X El Capitan, then is Hiragino Sans GB which guarantee the compatibility. On Windows side, Microsoft Jhenghei is the first fallback for Traditional Chinese, which introduced since Windows Vista. The last fallback is Heiti TC, the default UI font for Traditional Chinese on iOS 8 and previous versions, and OS X Yosemite and previous versions.
 
-繁体中文（香港）方面首个设置为思源黑体（繁体）——因为冬青黑体简体中文可能不合繁体中文的相关规范。然后是苹方（香港）——自 iOS 9 以及 OS X El Capitan 后作为 UI 字体，然后才是冬青黑体简体中文。Windows 方面，微软正黑——自 Windows Vista 后作为繁体中文 Windows 的 UI 字体——为首个设置，最后是华文黑体—— iOS 8 以及之前版本、OS X Yosemite 以及之前版本的 UI 字体。
+繁体中文（香港）方面首个设置为 Hiragino Sans CHS ——自 macOS Sierra 后开始附带的一套类似冬青黑体简体中文的繁体中文字体，然后是思源黑体（繁体）——因为冬青黑体简体中文可能不合繁体中文的相关规范。然后是苹方（香港）——自 iOS 9 以及 OS X El Capitan 后作为 UI 字体，然后才是冬青黑体简体中文为保证兼容性。Windows 方面，微软正黑——自 Windows Vista 后作为繁体中文 Windows 的 UI 字体——为首个设置，最后是华文黑体—— iOS 8 以及之前版本、OS X Yosemite 以及之前版本的 UI 字体。
 
 ### Traditional Chinese (Taiwan) / 繁体中文（台湾）
 The difference between Traditional Chinese (Hong Kong) and Traditional Chinese (Taiwan) is the difference between PingFang HK and PingFang TC, while Taiwan version uses PingFang TC.
@@ -40,6 +40,11 @@ Source Code Pro is an open source monospaced sans serif font family designed by 
 
 Source Code Pro 是一个由 Adobe Inc. 开发的开源的等宽无衬线字体。对于网页中的代码——例如编程代码——具有比较理想的显示效果。点击<a href="https://github.com/adobe-fonts/source-code-pro" target="_blank">__这里__</a>访问他们的 GitHub 软件仓库并获得 Source Code Pro。
 
+## San Francisco Mono (SF Mono)
+Apple introduced a monospace font family, SF Mono, into the big group of San Francisco font family before WWDC 2016. However it is not come with macOS Sierra. But it is pre-installed inside Xcode 8.
+
+在 WWDC 2016 前夕 Apple 公布了在 San Francisco 字体大家族中的等宽字体 SF Mono，尽管它并未在 macOS Sierra 中预装，但是却预装在 Xcode 8 中。
+
 ## Styles / 样式
 - [Neo-Grotesque_zh_CN_Vector.css](Neo-Grotesque_zh_CN_Vector.css)  
   This style is designed for skin “Vector” of Simplified Chinese Wikipedia. Pan-CJK font shown in the figure is Hiragino Sans GB.  
@@ -48,12 +53,12 @@ Source Code Pro 是一个由 Adobe Inc. 开发的开源的等宽无衬线字体�
   ![Example_zh_CN.png](Example_zh_CN.png)
 - [Neo-Grotesque_zh_HK_Vector.css](Neo-Grotesque_zh_HK_Vector.css)  
   This style is designed for skin “Vector” of Traditional Chinese (Hong Kong) Wikipedia. Pan-CJK font shown in the figure is PingFang HK.  
-  用于繁体中文（香港）版本的维基百科皮肤 “Vector”，图中汉字圈字体为苹方（香港）。    
+  用于繁体中文（香港）版本的维基百科皮肤 “Vector”，图中汉字圈字体为 Hiragino Sans CHS。    
   __Example / 示例__  
   ![Example_zh_CN.png](Example_zh_HK.png)
 - [Neo-Grotesque_zh_TW_Vector.css](Neo-Grotesque_zh_TW_Vector.css)  
   This style is designed for skin “Vector” of Traditional Chinese (Taiwan) Wikipedia. Pan-CJK font shown in the figure is PingFang TC.  
-  用于繁体中文（台湾）版本的维基百科皮肤 “Vector”，图中汉字圈字体为苹方（繁体中文）。    
+  用于繁体中文（台湾）版本的维基百科皮肤 “Vector”，图中汉字圈字体为 Hiragino Sans CHS。    
   __Example / 示例__  
   ![Example_zh_CN.png](Example_zh_TW.png)
 - [Neo-Grotesque_JP_Vector.css](Neo-Grotesque_JP_Vector.css)  
@@ -61,6 +66,6 @@ Source Code Pro 是一个由 Adobe Inc. 开发的开源的等宽无衬线字体�
   用于日文版本的维基百科皮肤 “Vector”。  
   __Example / 示例__  
   ![Example_JP.png](Example_JP.png)
-  
-  __All examples are captured in Safari 9.0 on OS X El Capitan 10.11.__  
-  __所有示例都截取自运行在 OS X El Capitan 10.11 的 Safari 9.0。__
+
+  __All examples are captured in Safari 10.0 on macOS Sierra 10.12.__  
+  __所有示例都截取自运行在 macOS Sierra 10.12 的 Safari 10.0。__

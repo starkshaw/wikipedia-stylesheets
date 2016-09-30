@@ -1,5 +1,5 @@
 /* Author: Stark Shaw */
-/* Date: Sep 2 2015 */
+/* Date: Oct 1 2016 */
 
 /* Designed for Simplified Chinese for skin “Vector”. */
 
@@ -18,4 +18,15 @@ SimSun – The default serif Simplified Chinese font after Windows 95.
 serif – The final fallback.
 
 You may add, revise or delete entries according to your taste.
+*/
+
+pre {
+	font-family: 'SF Mono', 'Source Code Pro', 'Menlo', 'Monaco', monospace;
+}
+
+/* This part is for pre-formatted text, or code.
+SF Mono – A new monospace font family introduced by Apple.
+Source Code Pro – A free monospace font by Adobe Inc.
+Menlo – Pre-installed in OS X.
+Monaco – Pre-installed in OS X.
 */
