@@ -10,8 +10,8 @@ body, h1, h2, h2 span {
 /*
 Baskerville – The main font for western languages.
 Georgia – Concerning for Windows.
-Songti SC – The default serif Simplified Chinese font in OS X.
-Hiragino Mincho Pro – The default serif Japanese font in OS X.
+Songti SC – The default serif Simplified Chinese font in macOS (OS X).
+Hiragino Mincho Pro – The default serif Japanese font in macOS (OS X).
 SimSun-ExtB – The default serif Simplified Chinese font after Windows Vista.
 SimSun – The default serif Simplified Chinese font after Windows 95.
 
@@ -27,6 +27,10 @@ pre {
 /* This part is for pre-formatted text, or code.
 SF Mono – A new monospace font family introduced by Apple.
 Source Code Pro – A free monospace font by Adobe Inc.
-Menlo – Pre-installed in OS X.
-Monaco – Pre-installed in OS X.
+Menlo – Pre-installed in macOS (OS X).
+Monaco – Pre-installed in macOS (OS X).
+
+monospace – The final fallback.
+
+You may add, revise or delete entries according to your taste.
 */

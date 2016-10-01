@@ -8,13 +8,13 @@ body, h1, h2, h2 span {
 }
 
 /*
-Helvetica Neue – Pre-installed in OS X.
-Helvetica – Pre-installed in OS X.
+Helvetica Neue – Pre-installed in macOS (OS X).
+Helvetica – Pre-installed in macOS (OS X).
 Segoe UI – Pre-installed in Windows
 Hiragino Sans CHS – Pre-installed Traditional Chinese font family since macOS Sierra.
 Noto Sans CJK TC – Traditional Chinese version of Noto Sans CJK.
 PingFang TC – The new UI font family since OS X El Capitan and iOS 9 for Traditional Chinese.
-Hiragino Sans GB – Pre-installed Simplified Chinese font family in OS X.
+Hiragino Sans GB – Pre-installed Simplified Chinese font family in macOS (OS X).
 Microsoft Jhenghei – Pre-installed in Windows.
 Heiti TC – Default UI font of Traditional Chinese version of iOS (before iOS 9).
 
@@ -30,6 +30,10 @@ pre {
 /* This part is for pre-formatted text, or code.
 SF Mono – A new monospace font family introduced by Apple.
 Source Code Pro – A free monospace font by Adobe Inc.
-Menlo – Pre-installed in OS X.
-Monaco – Pre-installed in OS X.
+Menlo – Pre-installed in macOS (OS X).
+Monaco – Pre-installed in macOS (OS X).
+
+monospace – The final fallback.
+
+You may add, revise or delete entries according to your taste.
 */

@@ -8,10 +8,10 @@ body, h1, h2, h2 span {
 }
 
 /*
-Helvetica Neue – Pre-installed in OS X.
-Helvetica – Pre-installed in OS X.
+Helvetica Neue – Pre-installed in macOS (OS X).
+Helvetica – Pre-installed in macOS (OS X).
 Segoe UI – Pre-installed in Windows.
-Hiragino Sans GB – Pre-installed in OS X.
+Hiragino Sans GB – Pre-installed in macOS (OS X).
 Noto Sans CJK SC – Simplified Chinese version of Noto Sans CJK.
 PingFang SC – The new UI font family since OS X El Capitan and iOS 9 for Simplified Chinese.
 Microsoft Yahei – Pre-installed in Windows.
@@ -29,6 +29,10 @@ pre {
 /* This part is for pre-formatted text, or code.
 SF Mono – A new monospace font family introduced by Apple.
 Source Code Pro – A free monospace font by Adobe Inc.
-Menlo – Pre-installed in OS X.
-Monaco – Pre-installed in OS X.
+Menlo – Pre-installed in macOS (OS X).
+Monaco – Pre-installed in macOS (OS X).
+
+monospace – The final fallback.
+
+You may add, revise or delete entries according to your taste.
 */
