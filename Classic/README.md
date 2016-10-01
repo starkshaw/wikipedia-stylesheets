@@ -40,7 +40,7 @@ This style adopted Hiragino Mincho Pro for Japanese for macOS (OS X), while MS P
   __Example / 示例__  
   ![Example_JP.png](Example_JP.png)
 
-  __All examples are captured in Safari 8.0.8 on OS X Yosemite 10.10.5, except example for Traditional Chinese(Taiwan) is captured in Safari 10.0 on macOS Sierra.__  
+  __All examples are captured in Safari 8.0.8 on OS X Yosemite 10.10.5, except example for Traditional Chinese (Taiwan) is captured in Safari 10.0 on macOS Sierra.__  
   __除繁体中文（台湾）截取自运行在 macOS Sierra 的 Safari 10.0 之外，其他示例都截取自运行在 OS X Yosemite 10.10.5 的 Safari 8.0.8。__
 
   ​
