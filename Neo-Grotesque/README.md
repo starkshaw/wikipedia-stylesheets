@@ -67,5 +67,5 @@ Apple introduced a monospace font family, SF Mono, into the big group of San Fra
   __Example / 示例__  
   ![Example_JP.png](Example_JP.png)
 
-  __All examples are captured in Safari 10.0 on macOS Sierra 10.12.__  
-  __所有示例都截取自运行在 macOS Sierra 10.12 的 Safari 10.0。__
+__All examples are captured in Safari 10.0 on macOS Sierra 10.12.__  
+__所有示例都截取自运行在 macOS Sierra 10.12 的 Safari 10.0。__
